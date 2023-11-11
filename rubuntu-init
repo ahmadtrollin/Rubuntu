@@ -7,8 +7,8 @@ sudo snap install asciiquarium
 sudo apt install lolcat
 sudo apt install figlet
 sudo apt install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "THE NEXT STEP REQUIRES YOU TO FIND ZSH_THEME, IT SHOULD LOOK LIKE THIS ZSH_THEME=robbyrussel (IT'S IN LINE 11), REPLACE robbyrussel TO powerlevel10k/powerlevel10k" | lolcat -a -d 250
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-gedit ~/.zshrc
-echo "You're almost done setting up Rubuntu! Now close the terminal, and follow what powerlevel10k says." | lolcat -a -d 2500
+sudo git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+sudo gedit ~/.zshrc
+echo "You're almost done setting up Rubuntu! Now close the terminal, and follow what powerlevel10k says." | lolcat -a -d 100
