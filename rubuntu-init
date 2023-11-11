@@ -3,6 +3,8 @@ sudo apt update
 sudo apt install curl
 sudo apt install git
 sudo apt install sl
+sudo apt install cowsay
+sudo apt install neofetch
 sudo snap install htop
 sudo snap install asciiquarium
 sudo apt install lolcat
@@ -45,4 +47,5 @@ echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" | lolcat -a -d 3
-
+echo "After zsh installs, type () to do the final steps." | lolcat -a -d 10
+sudo apt install zsh
