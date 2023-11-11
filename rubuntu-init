@@ -1,6 +1,8 @@
 echo "Setting up Rubuntu..( READ THE MANUAL IN THE GITHUB IF YOU DON'T KNOW WHAT YOU'RE DOING )"
+sudo apt update
 sudo apt install curl
 sudo apt install git
+sudo gsettings set org.gnome.desktop.background picture-uri "https://github.com/ahmadtrollin/Rubuntu/blob/main/Rubuntu_Wall.png"
 sudo apt install sl
 sudo snap install htop
 sudo snap install asciiquarium
