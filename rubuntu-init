@@ -1,0 +1,13 @@
+echo "Setting up Rubuntu..( READ THE MANUAL IN THE GITHUB IF YOU DON'T KNOW WHAT YOU'RE DOING )"
+sudo apt install curl
+sudo apt install git
+sudo apt install sl
+sudo snap install htop
+sudo snap install asciiquarium
+sudo apt install lolcat
+sudo apt install figlet
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo "THE NEXT STEP REQUIRES YOU TO FIND ZSH_THEME, IT SHOULD LOOK LIKE THIS ZSH_THEME=robbyrussel (IT'S IN LINE 11), REPLACE robbyrussel TO powerlevel10k/powerlevel10k" | lolcat -a -d 250
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+gedit ~/.zshrc
