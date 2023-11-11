@@ -12,7 +12,7 @@ sudo apt install figlet
 Invoke-WebRequest https://github.com/ahmadtrollin/Rubuntu/blob/16c3349000c6024623dbc6080161647da94524f0/v2_Rubuntu_Wall.png -O v2_Rubuntu_Wall.png
 gsettings set org.gnome.desktop.background picture-uri file:///home//v2_Rubuntu_Wall.png
 sudo apt install pacman
-sudo pacman -S wine
+sudo apt install wine
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -53,3 +53,5 @@ echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 echo "Your Rubuntu is.."
 figlet "READY !" | lolcat -a -d 2
+echo "Use this link to add the final touches."
+echo "https://github.com/ahmadtrollin/Rubuntu/blob/16c3349000c6024623dbc6080161647da94524f0/v2_Rubuntu_Wall.png" | lolcat -a -d 250
