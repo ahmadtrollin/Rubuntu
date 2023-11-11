@@ -47,6 +47,9 @@ echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" | lolcat -a -d 3
-echo "After zsh installs, type () to do the final steps." | lolcat -a -d 100
+echo "After zsh installs, type (./rubuntu-load) to do the final steps." | lolcat -a -d 100
+>> rubuntu-load
+echo "sh -c "$(wget https://raw.githubusercontent.com/ahmadtrollin/Rubuntu/main/rubuntu.exec -O -)"" >> rubuntu-load
+sudo chmod +x rubuntu-load
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
