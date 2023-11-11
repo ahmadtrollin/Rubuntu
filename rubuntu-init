@@ -9,6 +9,10 @@ sudo snap install htop
 sudo snap install asciiquarium
 sudo apt install lolcat
 sudo apt install figlet
+Invoke-WebRequest https://github.com/ahmadtrollin/Rubuntu/blob/16c3349000c6024623dbc6080161647da94524f0/v2_Rubuntu_Wall.png -O v2_Rubuntu_Wall.png
+gsettings set org.gnome.desktop.background picture-uri file:///home//v2_Rubuntu_Wall.png
+sudo apt install pacman
+sudo pacman -S wine
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -46,10 +50,6 @@ echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##***,,,@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" | lolcat -a -d 3
-echo "After zsh installs, type (./rubuntu-load) to do the final steps." | lolcat -a -d 100
->> rubuntu-load
-echo "sh -c "$(wget https://raw.githubusercontent.com/ahmadtrollin/Rubuntu/main/rubuntu.exec -O -)"" >> rubuntu-load
-sudo chmod +x rubuntu-load
-sudo apt install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+echo "Your Rubuntu is.."
+figlet "READY !" | lolcat -a -d 2
