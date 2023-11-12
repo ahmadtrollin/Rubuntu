@@ -9,7 +9,9 @@ sudo snap install htop
 sudo snap install asciiquarium
 sudo apt install lolcat
 sudo apt install figlet
-Invoke-WebRequest https://github.com/ahmadtrollin/Rubuntu/blob/16c3349000c6024623dbc6080161647da94524f0/v2_Rubuntu_Wall.png -O v2_Rubuntu_Wall.png
+wget https://github.com/ahmadtrollin/Rubuntu/tree/9449ea48fd5738727e8b8c403beee8fe5657ae6f/Rubuntu_Wall
+curl https://github.com/ahmadtrollin/Rubuntu/tree/9449ea48fd5738727e8b8c403beee8fe5657ae6f/Rubuntu_Wall
+Invoke-WebRequest https://github.com/ahmadtrollin/Rubuntu/tree/9449ea48fd5738727e8b8c403beee8fe5657ae6f/Rubuntu_Wall
 gsettings set org.gnome.desktop.background picture-uri file:///home//v2_Rubuntu_Wall.png
 sudo apt install pacman
 sudo apt install wine
@@ -53,5 +55,3 @@ echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 echo "Your Rubuntu is.."
 figlet "READY !" | lolcat -a -d 2
-echo "Use this link to add the final touches."
-echo "https://github.com/ahmadtrollin/Rubuntu/blob/16c3349000c6024623dbc6080161647da94524f0/v2_Rubuntu_Wall.png" | lolcat -a -d 250
